@@ -9,6 +9,21 @@
   </head>
 
   <body>
+    <form action="#" method="post">
+      <label for="name">Insert Name :</label>
+      <input type="text" name="name" id="nameField" placeholder="Your Name">
+      <label for="email">Insert Email</label>
+      <input type="email" name="email" id="emailField" placeholder="Your email">
+      <input type="submit" value="Submit">
+    </form>
+    <div class="response" id="recievedResponse">
+        <h2 id="responseName">Name :</h2>
+        <h3 class="title" id="name"></h3> 
+        <h2 id="responseEmail">Emai :</h2>
+        <h4 class="response" id="email"></h4>
+        <h2 id="responseId">ID :</h2>
+        <h4 class="id" id="myIdNo"></h4>
+    </div>
     <script src="index.js"></script>
   </body>
 
